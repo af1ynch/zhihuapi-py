@@ -1,7 +1,7 @@
 import re
 from setuptools import setup
 
-with open('README.rst', encoding='utf8') as f:
+with open('README.rst') as f:
     readme = f.read()
 
 with open('zhihuapi/__init__.py') as f:
